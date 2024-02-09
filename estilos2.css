@@ -1,0 +1,21 @@
+h2, h3{
+    font-family: "arial";
+    font-size: 30px;
+}
+
+.contenedor p{
+    color:red
+}
+
+.contenedor>a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h2~p{
+    color: gold;
+}
+
+h3+p{
+    color:powderblue;
+}

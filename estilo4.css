@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.enlaces{
+    text-decoration: none;
+    background-color: crimson;
+    color: white;
+    padding: 30px 20px ;
+    display: inline-block;
+    margin: 30px 20px;
+
+    /*Lo que hace display inline-block es que pueda tener las propiedades del box model con el comportamiento de un elemento en linea y asi MARGIN pueda surtir efectos */
+}
+
+.block{
+    display: none;  /*Saca del flujo al elemento*/
+}
+
+.header{
+    height: 150px;
+    background: grey;
+    color: white;
+    border: solid black 3px;
+    padding: 30px 40px;
+    text-align: center ;
+}
+
+/* ESPECIFICIDAD:
+1000    - inline class  ES MALA PRACTICA
+100     - ID
+10      - Class, Atributos
+1       - Elementos
+*/
+/* ROMPER LA ESPECIFICIDAD CON !IMPORTANT ES UNA MALA PRACTICA*/
+
+.title{
+    border:inherit; /*HERENCIA*/
+    padding: inherit;
+    text-align: initial;    /*SE VA A LA PROPIEDAD INICIAL*/
+}

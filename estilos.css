@@ -1,0 +1,50 @@
+h1{
+    color: steelblue;
+}
+
+nav {
+    border: 2px black solid;
+    color: steelblue;
+}
+
+.titulo{
+    border: 2px black solid;
+    color: orangered;
+    text-align: right;
+}
+
+.titulo-border{
+    color: blueviolet;
+    border: 2px solid red;
+    text-align: center;
+}
+
+#section {
+    text-align: center;
+}
+
+h2[class]{
+    text-decoration: underline;
+}
+
+[href]{
+    text-decoration: none;
+}
+
+/*estos son selectores de atributos*/
+
+[href="https://alexcgdesign.com/inicio"] {
+    color: brown
+}
+
+[href^="hsttps"] {
+    color: yellow;
+}
+
+[href$="org"]{
+    background: steelblue;
+}
+
+[href*="alexcgdesign"]{
+    background-color: darksalmon;
+}
